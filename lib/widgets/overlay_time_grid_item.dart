@@ -112,7 +112,7 @@ class _OverlayTimeGridItemState extends State<OverlayTimeGridItem> {
   void showOverlay(Rect itemRect) {
     final itemSlideOffset = itemRect.width * 0.3;
     final isLeftOrRightMultiplier =
-        widget.gridRect.width / 2 < itemRect.left ? -1.0 : 1.0;
+        widget.gridRect.left == itemRect.left ? 1.0 : -1.0;
     isGridItemLeft = isLeftOrRightMultiplier == 1.0;
     final isUpOrDownMultiplier =
         (itemRect.bottom + itemSlideOffset) > widget.gridRect.bottom ? -1.0 : 1.0;
