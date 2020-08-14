@@ -41730,7 +41730,7 @@ o=o.a
 return M.pb(C.ab,new K.b8(l,l,l,l),M.cU(m,T.V8(H.b([r,new T.h3(m,12,m,m),n,L.is("per person",A.ez(m,m,P.bj(153,(16711680&o)>>>16,(65280&o)>>>8,(255&o)>>>0),m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m),m)],t.t),C.i8,C.lq),s,m,m,m,m,m,m),C.W,m,24*a,m,m,m,C.bk)},
 IC:function(){var s=null
 return new N.w9(new L.RO(),s,s,s,s,s,s,$.UF(),s,s,s,s,s,s,L.is("Next",A.ez(s,s,$.a0D(),s,s,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s),s),s,s,s,C.W,s,!1,s,s)},
-C_:function(a){var s,r,q,p,o,n=this,m=a.a,l=a.c-m,k=l*0.3,j=n.a.d,i=j.a,h=(j.c-i)/2<m?-1:1
+C_:function(a){var s,r,q,p,o,n=this,m=a.a,l=a.c-m,k=l*0.3,j=n.a.d,i=j.a,h=i===m?1:-1
 m=h===1
 n.e=m
 s=a.d
