@@ -32,12 +32,6 @@ class HomeContent extends StatelessWidget {
         );
 
         final screenHeight = screenRect.height;
-        if (screenHeight < minRequiredHeight) {
-          return Center(
-            child: Text('Minimum height should be $minRequiredHeight.'),
-          );
-        }
-
         final maxAppBarHeight = screenHeight * 0.4;
         final minAppBarHeight = maxAppBarHeight * 0.5;
         final minDayTimeHeight = kToolbarHeight;
