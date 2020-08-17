@@ -13,7 +13,6 @@ class HomeContent extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (_, constraints) {
-        final minRequiredHeight = 620.0;
         final screenSize = Size(
           constraints.maxWidth,
           constraints.maxHeight,
