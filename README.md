@@ -1,10 +1,12 @@
 # movie_time_selection
 
-This interface is designed by Cuberto ([Dribbble](https://dribbble.com/cuberto)).<br>
+Interface by [Cuberto](https://dribbble.com/cuberto).<br>
 [https://dribbble.com/shots/5694244-Scroll-and-Selected-Tab](https://dribbble.com/shots/5694244-Scroll-and-Selected-Tab)
 
 This is created as a Flutter Web project, so you can play around with the design and help me find bugs.<br>
 [https://mslalith.github.io/movie_time_selection/](https://mslalith.github.io/movie_time_selection/ "Movie Time Selection")
+
+![Movie Time Selection](https://github.com/mslalith/movie_time_selection/blob/master/example/movie_time_selection.gif)
 
 ## Packages:
 
